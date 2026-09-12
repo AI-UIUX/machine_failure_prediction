@@ -6,7 +6,7 @@ api = HfApi(token=os.getenv("HF_TOKEN"))
 # Define the repo details
 repo_id = "KunalGera/Machine-Failure-Prediction"
 repo_type = "space"  # Could be "dataset", "model", or "space"
-space_sdk = "docker"  # Replace this with your chosen SDK ('gradio', 'streamlit', 'docker', 'static')
+space_sdk = "gradio"  # Replace this with your chosen SDK ('gradio', 'streamlit', 'docker', 'static')
 
 # Check if the repo exists
 try:
